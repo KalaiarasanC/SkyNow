@@ -4,11 +4,11 @@ Weather application for free code camp
 Open Weather Map http://openweathermap.org
 
 # Created using
-HTML
-CSS
-BOOTSTRAP
-JAVASCRIPT
-JQUERY
+* HTML
+* CSS
+* BOOTSTRAP
+* JAVASCRIPT
+* JQUERY
 
 
 
