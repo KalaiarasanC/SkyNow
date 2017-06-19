@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SkyNow-A Weather App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="weather.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="row">
+				<div class="content">
+					<h2>Sky Now</h2>
+				<div id="temp-wrap">
+					<p><span id="temp"></span><span id="metric"></span></p>
+				</div>
+				<p>
+					<span id="location"></span>
+					<span id="description"></span>
+				</p>
+				<span id="icon">
+					<img src="">
+				</span>
+		
+			</div>
+		</div>
+		<div class="row">
+			<div class="content">
+				<div id="search">
+					<input type="text" name="location"  placeholder="Location name">
+					<span class="fa fa-search" style=""></span>
+				</div>
+					<span id="name">by kalaiarasan.</span>
+			</div>
+		</div>
+	</div>				
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>		
+<script type="text/javascript" src="weather.js"></script>
+</body>
+</html>
