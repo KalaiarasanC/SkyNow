@@ -11,7 +11,7 @@ var temp;
 var unit ="C";
 function callApi(city){
 
-var requrl = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&APPID=6170be3e1ce7da0cb315ffc39c393cfb";
+var requrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&APPID=6170be3e1ce7da0cb315ffc39c393cfb";
 $.getJSON(requrl).done(function(data){
 	//console.log(data.main['temp']);
 	 temp = Math.round(data.main["temp"]);
