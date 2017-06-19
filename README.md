@@ -1,3 +1,4 @@
+
 # SkyNow
 Weather application for free code camp 
 # API used
@@ -9,7 +10,4 @@ Open Weather Map http://openweathermap.org
 * BOOTSTRAP
 * JAVASCRIPT
 * JQUERY
-
-
-
 
